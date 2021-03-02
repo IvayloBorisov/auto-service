@@ -1,5 +1,5 @@
 
-import {Logo, Navbar} from '../index';
+import {Logo, Navbar, Hero} from '../index';
 
 const Header = () => {
 
@@ -7,6 +7,7 @@ const Header = () => {
         <header>
             <Logo />
             <Navbar />
+            <Hero />
         </header>
     )
 }
