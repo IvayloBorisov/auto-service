@@ -1,0 +1,8 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    color: var(--text-primary-color);
+    padding: 1em 0;
+}

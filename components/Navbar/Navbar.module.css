@@ -11,6 +11,7 @@
     right: 100%;
     background-color: var(--background-color-light);
     transition: 0.4s;
+    z-index: 20;
 }
 
 .hamburger {
