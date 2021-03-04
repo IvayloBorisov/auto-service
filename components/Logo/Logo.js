@@ -1,11 +1,13 @@
+import styles from "./Logo.module.css";
 
 const Logo = () => {
-
-    return (
-        <div>
-            <h1><span>CUSTOM</span>GARAGE</h1>
-        </div>
-    )
-}
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.title}>
+        <span className={styles.text}>C</span>G
+      </h1>
+    </div>
+  );
+};
 
 export default Logo;

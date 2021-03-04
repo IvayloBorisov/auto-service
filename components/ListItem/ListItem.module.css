@@ -1,0 +1,16 @@
+.container {
+    list-style-type: none;
+}
+
+.anchor {
+    display: block;
+    padding: 0.5em 2em;
+    letter-spacing: 2px;
+    font-size: var(--font-size-secondary);
+    text-align: center;
+}
+
+.anchor:hover {
+    color: var(--text-secondary-color);
+    transform: scale(1.1);
+}
