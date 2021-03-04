@@ -1,0 +1,50 @@
+.container {
+    margin: 0em 1em;
+}
+
+.title-container {
+    padding: 1em 0;
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.title {
+}
+
+.text {
+    color: var(--text-secondary-color);
+}
+
+.wrapper {
+    background-color: var(--background-color);
+    position: relative;
+    z-index: 10;
+    color: var(--text-primary-color);
+
+}
+
+.wrapper::before {
+    content: '';
+    position: absolute;
+    background-color: var(--text-secondary-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.content {
+    padding: 1em;
+    position: relative;
+    z-index: 11;
+    text-align: justify;
+}
+
+.content .list-container > li {
+    padding: 0 2em;
+}
+

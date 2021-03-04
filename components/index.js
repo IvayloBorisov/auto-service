@@ -3,3 +3,7 @@ export {default as Logo} from './Logo/Logo';
 export {default as Navbar} from './Navbar/Navbar';
 export {default as Hero} from './HeroComponent/Hero';
 export {default as Header} from './Header/Header';
+export {default as Main} from './Main/Main';
+export {default as About} from './About/About';
+export {default as Services} from './ServicesContainer/ServicesContainer';
+export {default as ServiceComponent} from './ServiceComponent/ServiceComponent';

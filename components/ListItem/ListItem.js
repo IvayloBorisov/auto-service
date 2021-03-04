@@ -13,7 +13,7 @@ const ListItem = ({ title, id, href }) => {
       {href ? (
         nextLink
       ) : (
-        <a href={id} className={styles.anchor}>
+        <a href={`#${id}`} className={styles.anchor}>
           {title}
         </a>
       )}
