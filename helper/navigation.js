@@ -1,23 +1,23 @@
 export const navLinks = [
     {
-        id: 1,
+        id: "home",
         title: "Начало"
     },
     {
-        id: 2,
+        id: "about",
         title: "За нас"
     },
     {
-        id: 3,
+        id: "services",
         title: "Услуги"
     },
     {
-        id: 4,
+        id: "gallery",
         title: "Галерия",
         href : "/gallery"
     },
     {
-        id: 5,
+        id: "contact",
         title: "Контакти"
     }
 ];

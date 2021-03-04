@@ -1,13 +1,14 @@
-
-import {Logo, Navbar, Hero} from '../index';
+import styles from './Header.module.css';
+import {Logo, Navbar} from '../index';
 
 const Header = () => {
 
     return (
-        <header>
-            <Logo />
-            <Navbar />
-            <Hero />
+        <header className={styles.container}>
+            <div className={styles.wrapper}>
+             <Logo />
+             <Navbar />
+            </div>
         </header>
     )
 }

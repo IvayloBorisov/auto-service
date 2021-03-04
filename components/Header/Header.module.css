@@ -1,0 +1,10 @@
+.container {
+    background-color: var(--background-color);
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
