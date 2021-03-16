@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import {Header, Main} from '../components/index';
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import {Header, Main, Footer} from '../components/index';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -11,8 +11,7 @@ export default function Home() {
       </Head>
       <Header />
       <Main />
-
-     
+      <Footer />
     </div>
   )
 }

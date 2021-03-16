@@ -7,3 +7,8 @@ export {default as Main} from './Main/Main';
 export {default as About} from './About/About';
 export {default as Services} from './ServicesContainer/ServicesContainer';
 export {default as ServiceComponent} from './ServiceComponent/ServiceComponent';
+export {default as Footer} from './Footer/Footer';
+export {default as LocationMarker} from './Marker/Marker';
+export {default as NavControl} from './NavigationControl/NavControl';
+export {default as PopupComponent} from './Popup/Popup';
+export {default as FullScreen} from './FullScreen/FullScreen';
